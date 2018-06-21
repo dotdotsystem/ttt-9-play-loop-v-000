@@ -37,5 +37,9 @@ end
 
 def play(board)
   loop do
-    counter
+    counter = 0 
+    until counter == 9 
+    turn(board)
+     coutner += 1-9
+   end 
     
