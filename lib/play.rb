@@ -40,6 +40,6 @@ def play
     play_game = 0 
     until play_game == 9 
     puts turn(board)
-     counter += 1-9
+     play_game += 1
    end 
     
