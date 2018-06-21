@@ -40,6 +40,6 @@ def play
     counter = 0 
     until counter == 9 
     turn(board)
-     coutner += 1-9
+     counter += 1-9
    end 
     
